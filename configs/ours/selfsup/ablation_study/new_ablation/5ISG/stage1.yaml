@@ -1,0 +1,4 @@
+_BASE_: "../4ada/stage1.yaml"
+CYCLE:
+  SEG_GUIDE_STRATEGY: None
+

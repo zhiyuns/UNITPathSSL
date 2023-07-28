@@ -1,0 +1,4 @@
+_BASE_: "../baseline/stage1.yaml"
+CYCLE:
+  DATASET_A_NAME: colon_multichannel_10800_scratch_larger
+

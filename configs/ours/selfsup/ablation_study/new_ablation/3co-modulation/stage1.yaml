@@ -1,0 +1,4 @@
+_BASE_: "../2stylization/stage1.yaml"
+CYCLE:
+  G_AB: StyleGAN
+

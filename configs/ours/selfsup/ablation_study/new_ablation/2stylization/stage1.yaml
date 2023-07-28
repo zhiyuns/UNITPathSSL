@@ -1,0 +1,4 @@
+_BASE_: "../1distribution/stage1.yaml"
+CYCLE:
+  MASK_FORMAT: 'multichannel'
+

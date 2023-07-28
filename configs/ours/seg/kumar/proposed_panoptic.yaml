@@ -1,0 +1,5 @@
+_BASE_: "./baseline_panoptic.yaml"
+MODEL:
+  WEIGHTS: "./output/network-checkpoint.pkl"
+
+OUTPUT_DIR: ./results/seg/kumar/proposed_panoptic

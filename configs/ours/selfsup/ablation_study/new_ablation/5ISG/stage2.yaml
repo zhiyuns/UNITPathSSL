@@ -1,0 +1,9 @@
+_BASE_: "./stage1.yaml"
+CYCLE:
+  MASKRCNN_ON: false
+  BA_SCRATCH: 'scratch'
+MODEL:
+  WEIGHTS: ./output/proposed/custom_cell_msk/stage_1/network-snapshot-000308.pkl
+SOLVER:
+  BASE_LR: 0.0001
+SEED: 40

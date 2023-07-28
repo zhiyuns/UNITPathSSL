@@ -1,0 +1,4 @@
+_BASE_: "../3co-modulation/stage1.yaml"
+STYLEGAN:
+  AUG: 'ada'
+

@@ -1,0 +1,12 @@
+_BASE_: "../../../stage_1.yaml"
+CYCLE:
+  G_AB: ResNet
+  DATASET_A_NAME: multichannel_7200_random-7200
+  MASK_FORMAT: binary
+  SEG_GUIDE_STRATEGY: None
+MODEL:
+  WEIGHTS: ./weight/new_arch_fpn_gn_base.pkl
+STYLEGAN:
+  SKIP_RESOLUTION: 32
+  AUG: 'noaug'
+SEED: 35
