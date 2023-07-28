@@ -38,12 +38,12 @@ For our setting, we recommend registering a COCO Format Dataset, which means adj
 ## Getting started
 For nucleus mask generation, you can follow our settings with
 ```
-Coming Soon
+Comming Soon
 ```
 Pre-trained networks are stored as `*.pkl` files that can be referenced using local filenames or URLs.
 If training from scratch, just remove MODEL.WEIGHTS.
 ```
-Coming Soon
+Comming Soon
 ```
 Outputs from the above command will be placed under `./output/` by default, you can also changed the path by adding `OUTPUT_DIR /directory/to/your/desired/output/path` to the end of your command.
 
