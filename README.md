@@ -50,7 +50,7 @@ Outputs from the above command will be placed under `./output/` by default, you 
 ## Pretrained Checkpoint
 
 We provide ckpt used in the transfer learning experiments in our paper via Google Drive. Please download the checkpoint from the url below:
-https://drive.google.com/drive/folders/1Pg2YRjyIxCPBsL7VVFZIaiVCB0iWKLJq?usp=sharing
+[https://drive.google.com/drive/folders/1Pg2YRjyIxCPBsL7VVFZIaiVCB0iWKLJq?usp=sharing](https://drive.google.com/drive/folders/1ks0SqG8hNcN5rsrLQfwLt1jqBh0JIu1O?usp=sharing)
 
 Then, you can replicate the results in our paper. For example, you can get the segmentation results on Kumar using:
 ```
