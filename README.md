@@ -8,7 +8,7 @@ Abstract: Self-supervised pretraining attempts to enhance model performance by o
 
 ## Release notes
 
-This repository depends on [StyleGAN2-ADA-PyTorch](https://github.com/NVlabs/stylegan2-ada-pytorch), and [Detectron2](https://github.com/facebookresearch/detectron2) for simutaneously generating and segmenting nucleus in pathology images.
+This repository depends on [StyleGAN2-ADA-PyTorch](https://github.com/NVlabs/stylegan2-ada-pytorch), and [Detectron2](https://github.com/facebookresearch/detectron2) for simultaneously generating and segmenting nucleus in pathology images.
 
 ## Requirements
 
@@ -52,7 +52,7 @@ Outputs from the above command will be placed under `./output/` by default, you 
 We provide ckpt used in the transfer learning experiments in our paper via Google Drive. Please download the checkpoint from the url:
 [https://drive.google.com/drive/folders/1Pg2YRjyIxCPBsL7VVFZIaiVCB0iWKLJq?usp=sharing](https://drive.google.com/drive/folders/1ks0SqG8hNcN5rsrLQfwLt1jqBh0JIu1O?usp=sharing)
 
-Then, you can replicate the results in our paper. For example, you can train the Panoptic FPN on the Kumar dataset with:
+Then, you can reproduce the results in our paper. For example, you can train the Panoptic FPN on the Kumar dataset with:
 ```
 python tools/train_net.py --config-file ./configs/ours/seg/kumar/proposed_panoptic.yaml 
 ```
