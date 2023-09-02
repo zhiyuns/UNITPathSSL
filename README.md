@@ -1,5 +1,8 @@
 ## Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image
 
+This repository contains codes and checkpoints for our TMI'23 paper "Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image"
+by Zhiyun Song , Penghui Du , Junpeng Yan , Kailu Li , Jianzhong Shou , Maode Lai , Yubo Fan , Yan Xu
+
 <div align="center">
   <img src="./docs/framework.png" width="100%" height="100%"/>
 </div>
@@ -57,10 +60,20 @@ Then, you can reproduce the results in our paper. For example, you can train the
 python tools/train_net.py --config-file ./configs/ours/seg/kumar/proposed_panoptic.yaml 
 ```
 
-
 ## Citation
 
-Comming soon
+```
+@article{Song_2023,
+  doi = {10.1109/tmi.2023.3309971},
+  url = {https://doi.org/10.1109%2Ftmi.2023.3309971},
+  year = {2023},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  pages = {1--1},
+  author = {Zhiyun Song and Penghui Du and Junpeng Yan and Kailu Li and Jianzhong Shou and Maode Lai and Yubo Fan and Yan Xu},
+  title = {Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Images},
+  journal = {{IEEE} Transactions on Medical Imaging}
+}
+```
 
 ## Development
 
