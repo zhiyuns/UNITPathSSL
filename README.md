@@ -1,6 +1,5 @@
-## Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image
+This repository contains codes and checkpoints for our [[TMI'23]](https://ieeexplore.ieee.org/document/10234386) paper "Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image"
 
-This repository contains codes and checkpoints for our TMI'23 paper "Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image"
 by Zhiyun Song , Penghui Du , Junpeng Yan , Kailu Li , Jianzhong Shou , Maode Lai , Yubo Fan , Yan Xu
 
 <div align="center">
