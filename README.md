@@ -62,16 +62,16 @@ python tools/train_net.py --config-file ./configs/ours/seg/kumar/proposed_panopt
 ## Citation
 
 ```
-@article{Song_2023,
-  doi = {10.1109/tmi.2023.3309971},
-  url = {https://doi.org/10.1109%2Ftmi.2023.3309971},
-  year = {2023},
-  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-  pages = {1--1},
-  author = {Zhiyun Song and Penghui Du and Junpeng Yan and Kailu Li and Jianzhong Shou and Maode Lai and Yubo Fan and Yan Xu},
-  title = {Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Images},
-  journal = {{IEEE} Transactions on Medical Imaging}
-}
+@ARTICLE{Song_2023,
+  author={Song, Zhiyun and Du, Penghui and Yan, Junpeng and Li, Kailu and Shou, Jianzhong and Lai, Maode and Fan, Yubo and Xu, Yan},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2023.3309971}}
+
 ```
 
 ## Development
