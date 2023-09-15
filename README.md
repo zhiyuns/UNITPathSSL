@@ -1,12 +1,17 @@
-This repository contains codes and checkpoints for our [[TMI'23]](https://ieeexplore.ieee.org/document/10234386) paper "Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image"
+## UNITPathSSL: Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image
 
-by Zhiyun Song , Penghui Du , Junpeng Yan , Kailu Li , Jianzhong Shou , Maode Lai , Yubo Fan , Yan Xu
+**Official PyTroch implementation of the *TMI 2023* paper**<br></sub>
+[Paper](https://ieeexplore.ieee.org/document/10234386)
+[PDF][http://export.arxiv.org/pdf/2309.07394]
 
 <div align="center">
   <img src="./docs/framework.png" width="100%" height="100%"/>
 </div>
 
-Abstract: Self-supervised pretraining attempts to enhance model performance by obtaining effective features from unlabeled data, and has demonstrated its effectiveness in the field of histopathology images. Despite its success, few works concentrate on the extraction of nucleus-level information, which is essential for pathologic analysis. In this work, we propose a novel nucleus-aware self-supervised pretraining framework for histopathology images. The framework aims to capture the nuclear morphology and distribution information through unpaired image-to-image translation between histopathology images and pseudo mask images. The generation process is modulated by both conditional and stochastic style representations, ensuring the reality and diversity of the generated histopathology images for pretraining. Further, an instance segmentation guided strategy is employed to capture instance-level information. The experiments on 7 datasets show that the proposed pretraining method outperforms supervised ones on Kather classification, multiple instance learning, and 5 dense-prediction tasks with the transfer learning protocol, and yields superior results than other self-supervised approaches on 8 semi-supervised tasks. 
+**Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image**<br>
+Zhiyun Song , Penghui Du , Junpeng Yan , Kailu Li , Jianzhong Shou , Maode Lai , Yubo Fan , Yan Xu<br>
+
+Abstract: *Self-supervised pretraining attempts to enhance model performance by obtaining effective features from unlabeled data, and has demonstrated its effectiveness in the field of histopathology images. Despite its success, few works concentrate on the extraction of nucleus-level information, which is essential for pathologic analysis. In this work, we propose a novel nucleus-aware self-supervised pretraining framework for histopathology images. The framework aims to capture the nuclear morphology and distribution information through unpaired image-to-image translation between histopathology images and pseudo mask images. The generation process is modulated by both conditional and stochastic style representations, ensuring the reality and diversity of the generated histopathology images for pretraining. Further, an instance segmentation guided strategy is employed to capture instance-level information. The experiments on 7 datasets show that the proposed pretraining method outperforms supervised ones on Kather classification, multiple instance learning, and 5 dense-prediction tasks with the transfer learning protocol, and yields superior results than other self-supervised approaches on 8 semi-supervised tasks. *
 
 ## Release notes
 
