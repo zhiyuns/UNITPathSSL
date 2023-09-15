@@ -2,7 +2,7 @@
 
 **Official PyTroch implementation of the *TMI 2023* paper**<br></sub>
 [Paper](https://ieeexplore.ieee.org/document/10234386)
-[PDF][http://export.arxiv.org/pdf/2309.07394]
+[PDF](http://export.arxiv.org/pdf/2309.07394)
 
 <div align="center">
   <img src="./docs/framework.png" width="100%" height="100%"/>
