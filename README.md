@@ -1,12 +1,11 @@
 ## UNITPathSSL: Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image
 
-**Official PyTroch implementation of the *TMI 2023* paper**<br></sub>
-[Paper](https://ieeexplore.ieee.org/document/10234386)
-[PDF](http://export.arxiv.org/pdf/2309.07394)
+**Official PyTroch implementation of the *TMI 2023* paper**<br></sub> [[Paper]](https://ieeexplore.ieee.org/document/10234386) [[PDF]](http://export.arxiv.org/pdf/2309.07394)
 
 <div align="center">
   <img src="./docs/framework.png" width="100%" height="100%"/>
 </div>
+
 
 **Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Image**<br>
 Zhiyun Song , Penghui Du , Junpeng Yan , Kailu Li , Jianzhong Shou , Maode Lai , Yubo Fan , Yan Xu<br>
