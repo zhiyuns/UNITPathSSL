@@ -44,12 +44,12 @@ For our setting, we recommend registering a COCO Format Dataset, which means adj
 ## Getting started
 For nucleus mask generation, you can follow our settings with
 ```
-Comming Soon
+Coming Soon
 ```
 Pre-trained networks are stored as `*.pkl` files that can be referenced using local filenames or URLs.
 If training from scratch, just remove MODEL.WEIGHTS.
 ```
-Comming Soon
+Coming Soon
 ```
 Outputs from the above command will be placed under `./output/` by default, you can also changed the path by adding `OUTPUT_DIR /directory/to/your/desired/output/path` to the end of your command.
 
@@ -63,17 +63,19 @@ Then, you can reproduce the results in our paper. For example, you can train the
 python tools/train_net.py --config-file ./configs/ours/seg/kumar/proposed_panoptic.yaml 
 ```
 
+Moreover, you can use the pretrained backbone to extract the features for various tasks, such as classification, MIL, and calculation of fidelity metrics (such as FID). An example for extracting the features is provided in `'tools/classify_demo.ipynb'`.
+
 ## Citation
 
 ```
-@ARTICLE{Song_2023,
+@ARTICLE{UNITPATHSSL,
   author={Song, Zhiyun and Du, Penghui and Yan, Junpeng and Li, Kailu and Shou, Jianzhong and Lai, Maode and Fan, Yubo and Xu, Yan},
   journal={IEEE Transactions on Medical Imaging}, 
   title={Nucleus-aware Self-supervised Pretraining Using Unpaired Image-to-image Translation for Histopathology Images}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-1},
+  year={2024},
+  volume={43},
+  number={1},
+  pages={459-472},
   doi={10.1109/TMI.2023.3309971}}
 
 ```
