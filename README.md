@@ -42,20 +42,7 @@ Datasets for testing segmentation performance should be prepared according to [D
 For our setting, we recommend registering a COCO Format Dataset, which means adjusting `gt_json_file` and `gt_path` in `train.py` to your path of groung truth.
 
 ## Getting started
-For nucleus mask generation, you can follow our settings with
-```
-Coming Soon
-```
-Pre-trained networks are stored as `*.pkl` files that can be referenced using local filenames or URLs.
-If training from scratch, just remove MODEL.WEIGHTS.
-```
-Coming Soon
-```
-Outputs from the above command will be placed under `./output/` by default, you can also changed the path by adding `OUTPUT_DIR /directory/to/your/desired/output/path` to the end of your command.
-
-## Pretrained Checkpoint
-
-We provide ckpt used in the transfer learning experiments in our paper via Google Drive. Please download the checkpoint from the url:
+We provide checkpoints used in the transfer learning experiments in our paper via Google Drive. Please download the checkpoints from the URL:
 [https://drive.google.com/drive/folders/1Pg2YRjyIxCPBsL7VVFZIaiVCB0iWKLJq?usp=sharing](https://drive.google.com/drive/folders/1ks0SqG8hNcN5rsrLQfwLt1jqBh0JIu1O?usp=sharing)
 
 Then, you can reproduce the results in our paper. For example, you can train the Panoptic FPN on the Kumar dataset with:
